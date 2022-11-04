@@ -1,6 +1,6 @@
 # The Movies App with local server
 This project use local JSON Server for emulate data transfer between Frontend and Backend.
-The library **Axios** use too (https://github.com/axios/axios-docs).You may see data in the console.
+The library **Axios** use too (https://github.com/axios/axios-docs). You may see data in the console.
 When you log in as a user, it uses JWT token. You may see data in the console after click button "Log in".
 The file with defaul films name's **db.json**. You should run local server and runs the app in the development mode.
 ## First
