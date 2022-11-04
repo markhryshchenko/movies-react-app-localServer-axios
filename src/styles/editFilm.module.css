@@ -1,0 +1,128 @@
+@media (min-width: 320px) {
+  .main {
+    display: block;
+  }
+  .new_item_box {
+    max-width: 800px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .img__box {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .item__img {
+    max-height: auto;
+    max-width: 200px;
+  }
+  .description__field {
+    background-color: #292d3e;
+    color: #ccc;
+    border-radius: 5px;
+    display: block;
+    min-width: 300px;
+    min-height: 150px;
+  }
+  .description__field:focus {
+    outline: 1px solid #09d3ac;
+  }
+  .textfield {
+    border: 1px solid #09d3ac;
+    border-radius: 10px;
+    color: #09d3ac;
+  }
+  .item__form {
+    color: #fff;
+    font-size: 16px;
+    margin: 1rem auto;
+  }
+  .item__input {
+    background-color: #292d3e;
+    height: 28px;
+    display: block;
+    border-radius: 10px;
+    color: #ccc;
+    max-width: 300px;
+  }
+  .item__input:focus {
+    outline: 1px solid #09d3ac;
+  }
+
+  .item__btn {
+    font-size: 18px;
+    max-width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 40px;
+    color: #fff;
+    background-color: transparent;
+  }
+  .item__btn:hover {
+    color: #ee7623;
+    border: 1px solid #ee7623;
+    cursor: pointer;
+  }
+  .item__btn_cancel {
+    font-size: 18px;
+    max-width: 200px;
+    border: 1px solid rgb(146, 146, 146);
+    margin-left: 1rem;
+    border-radius: 5px;
+    padding: 5px 40px;
+    color: rgb(146, 146, 146);
+    background-color: transparent;
+  }
+  .item__btn_cancel:hover {
+    color: #d50000;
+    border: 1px solid #d50000;
+    cursor: pointer;
+  }
+  .details__row {
+    display: block;
+  }
+  .details__row > div {
+    margin-right: 20px;
+  }
+  .error__field {
+    color: red;
+    height: 40px;
+  }
+}
+@media (min-width: 576px) {
+  .new_item_box {
+    max-width: 800px;
+    margin: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .item__form {
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+  }
+  .item__img {
+    max-height: auto;
+    max-width: 300px;
+  }
+  .item__input {
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .new_item_box {
+    max-width: 800px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .new_item_box {
+    max-width: 800px;
+    margin: 1.5rem 2rem;
+  }
+}

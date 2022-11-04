@@ -1,0 +1,140 @@
+@media (min-width: 320px) {
+  header {
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+    padding: 1rem 0;
+  }
+  header .nav-bar {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  header .logo {
+    font-size: 24px;
+    font-weight: 400;
+    color: aliceblue;
+    margin: 0;
+  }
+  header ul.nav {
+    margin: 18px 0;
+  }
+
+  header ul.nav {
+    list-style: none;
+  }
+  header .nav__link {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 30px;
+  }
+
+  header .nav__link:last-of-type {
+    margin-right: 0px;
+  }
+  header .nav__link:hover {
+    color: #ee7623;
+  }
+
+  /* ----====Login fields===----- */
+
+  header .login-field {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+  }
+  header .login-field div {
+    margin-right: 16px;
+  }
+  header .login-field div:last-of-type {
+    margin-right: 0;
+  }
+
+  header .login-field div:hover {
+    color: #ee7623;
+    cursor: pointer;
+  }
+
+  header .login-field .login::after {
+    content: " Log In";
+    vertical-align: text-top;
+  }
+  header .login-field .logout::after {
+    content: " Log out";
+    vertical-align: text-top;
+  }
+  header .login-field .signup::after {
+    content: " Sign up";
+    vertical-align: text-top;
+  }
+
+  header .login-field__link {
+    font-size: 16px;
+    font-weight: 300;
+    color: #ccc;
+    margin-right: 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  header .login-field__link:last-of-type {
+    margin-right: 0;
+  }
+}
+@media (min-width: 576px) {
+  header .logo {
+    font-size: 28px;
+  }
+  header .nav-bar {
+    font-size: 22px;
+    display: flex;
+  }
+}
+@media (min-width: 768px) {
+  header .nav-bar {
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+  }
+  header .login-field {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+  }
+  header .login-field__link {
+    font-size: 16px;
+    color: #ccc;
+    margin-right: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  header .logo {
+    font-size: 38px;
+    font-weight: 400;
+    color: aliceblue;
+    margin-right: 0;
+  }
+
+  header .login-field__link {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1400px) {
+  /* -=none=- */
+}
+
+/* -----========!!!Enable button!!! */
+.hidden-btn {
+  display: none;
+}
+/*   ----====== */

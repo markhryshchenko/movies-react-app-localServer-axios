@@ -1,0 +1,205 @@
+@media (min-width: 320px) {
+  main {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+  }
+  .add-link_btn {
+    display: block;
+    width: 150px;
+    margin: 1rem auto;
+    text-decoration: none;
+    color: #ccc;
+    font-size: 22px;
+    font-weight: 400;
+    border: 2px solid #ccc;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  /* ---=====Cards of films ====--- */
+  .item {
+    /* max-width: 25%; */
+    margin: 0.5rem auto;
+    overflow: hidden;
+    color: #ccc;
+    position: relative;
+  }
+  .item__price {
+    font-size: 16px;
+    width: 80px;
+    height: 15px;
+    padding-top: 15px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 2%;
+    left: 0%;
+    background-color: #036e31;
+    line-height: 0;
+    border-radius: 0 5px 5px 0;
+  }
+  .item__price::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 25px solid #014b21;
+    border-left: 25px solid transparent;
+    position: absolute;
+    top: 100%;
+    left: -2%;
+  }
+  main .item main .item .desc {
+    padding: 5px 10px;
+  }
+  main .item h2 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .item-img {
+    width: 200px;
+    height: auto;
+  }
+  /* ---------============buttons block */
+  main .btn-show {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px 0;
+    margin: 15px 0;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: block;
+  }
+  main ._link {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 0;
+    margin-bottom: 5px;
+  }
+  main ._link:hover {
+    color: #ee7623;
+    cursor: pointer;
+    border: 1px solid #ee7623;
+  }
+
+  main .item .edit-btns div {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    border: 1px solid rgba(0, 0, 0, 0.71);
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+  main .item .edit-btns .edit:hover {
+    border: 1px solid #2e7d32;
+    cursor: pointer;
+  }
+  main .item .edit-btns .delete:hover {
+    border: 1px solid #b71c1c;
+    cursor: pointer;
+  }
+  .add-link:hover {
+    color: #ee7623;
+    cursor: pointer;
+    border: 2px solid #ee7623;
+  }
+  .add-link_btn:hover {
+    color: #ee7623;
+    cursor: pointer;
+    border: 2px solid #ee7623;
+  }
+}
+
+@media (min-width: 576px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0px;
+    justify-content: stretch;
+  }
+  .item-img {
+    width: 200px;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .control-nav {
+    margin: auto;
+  }
+
+  .add-link_btn {
+    display: inline-block;
+    margin: 1rem;
+    text-decoration: none;
+    color: #ccc;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 400;
+    width: 200px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+
+  /* -----======List of films====------ */
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .item-img {
+    width: 210px;
+    height: auto;
+  }
+}
+@media (min-width: 1024px) {
+  /* -----======List of films====------ */
+  main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .item-img {
+    width: 200px;
+    height: auto;
+  }
+}
+@media (min-width: 1400px) {
+  /* -----======List of films====------ */
+  main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .item-img {
+    width: 210px;
+    height: auto;
+  }
+}
+
+/* -----========!!!Enable button!!! */
+
+@media (min-width: 320px) {
+  .hidden-btn-main {
+    display: block;
+  }
+}
+@media (min-width: 576px) {
+  .hidden-btn-main {
+    display: inline-block;
+  }
+}
+
+/*   ----====== */

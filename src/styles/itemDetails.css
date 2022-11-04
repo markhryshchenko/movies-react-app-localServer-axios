@@ -1,0 +1,111 @@
+@media (min-width: 320px) {
+  main {
+    display: auto;
+  }
+  .wrapper-item {
+    margin: 1rem 1rem;
+  }
+  .item {
+    color: #ccc;
+    font-size: 16px;
+    position: relative;
+    padding-left: 23px;
+  }
+  .item__img {
+    max-height: 200px;
+    max-width: 200px;
+  }
+  .item-details {
+    padding: 0 20px;
+  }
+  .item__title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 30px 0 20px 0;
+  }
+  .row-title {
+    display: flex;
+  }
+  .item__price {
+    font-size: 16px;
+    width: 80px;
+    height: 15px;
+    padding-top: 15px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 2%;
+    left: 0%;
+    background-color: #036e31;
+    line-height: 0;
+    border-radius: 0 5px 5px 0;
+  }
+  .item__price::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 25px solid #014b21;
+    border-left: 25px solid transparent;
+    position: absolute;
+    top: 100%;
+    left: -2%;
+  }
+  .item__description {
+    max-width: 650px;
+    margin-top: 30px;
+  }
+  .item__director {
+    vertical-align: super;
+  }
+  .item__edit-btn {
+    text-align: center;
+    margin-top: 1rem;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #036e31;
+  }
+
+  .item__edit-link {
+    text-decoration: none;
+    color: #ccc;
+  }
+  .item__edit-link p {
+    display: inline;
+    vertical-align: super;
+    margin-left: 10px;
+    color: #2e7d32;
+  }
+  .item__img {
+    max-height: 250px;
+    max-width: 250px;
+  }
+}
+@media (min-width: 576px) {
+  .wrapper-item {
+    margin: 1.5rem 2rem;
+  }
+  .item__title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+    padding: 30px 0 20px 0;
+  }
+  .item {
+    color: #ccc;
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  .item__img {
+    max-height: auto;
+    max-width: 300px;
+  }
+}
+@media (min-width: 1024px) {
+}
+@media (min-width: 1400px) {
+  /* -=none=- */
+}
